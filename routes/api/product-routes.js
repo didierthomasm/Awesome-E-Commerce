@@ -153,7 +153,7 @@ router.delete('/:id', async (req, res) => {
     }
 
     // Respond with a success message
-    res.json({ message: 'Product deleted successfully' });
+    res.json({ message: `Product deleted successfully. ${numberOfRowsDeleted} row(s) removed.` });
 
   } catch (err) {
     console.error(err);  // Log the error for debugging
