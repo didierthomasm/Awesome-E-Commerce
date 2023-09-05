@@ -22,11 +22,11 @@ A RESTful API built with Node.js, Express, and Sequelize for managing products, 
 
 1. Clone the repository:
    ```bash
-   git clone [repo_url]
+   git clone https://github.com/didierthomasm/Awesome-E-Commerce
    ```
 2. Navigate to the project directory:
    ```bash
-   cd [project_name]
+   cd Awesome-E-Commerce
    ```
 3. Install the required dependencies:
    ```bash
